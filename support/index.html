@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Support · KoeNaWin</title>
+  <meta name="description" content="Help and contact information for the KoeNaWin iPhone app.">
+  <style>
+    :root { --bg:#f7f1eb; --card:#fffdfb; --ink:#241b19; --muted:#6f625f; --maroon:#8f443b; --gold:#c69337; --line:#eaded8; }
+    @media (prefers-color-scheme:dark) { :root { --bg:#120f0e; --card:#1c1817; --ink:#f8f1ed; --muted:#bbaea9; --line:#3b312e; } }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans Myanmar",sans-serif; color:var(--ink); background:var(--bg); line-height:1.7; }
+    header { border-bottom:1px solid var(--line); background:var(--card); }
+    nav, main, footer { width:min(860px,calc(100% - 32px)); margin:auto; }
+    nav { min-height:70px; display:flex; align-items:center; justify-content:space-between; gap:18px; }
+    nav a { color:inherit; text-decoration:none; font-weight:700; }
+    nav .policy { color:var(--muted); font-size:14px; }
+    main { padding:56px 0 72px; }
+    .eyebrow { color:var(--gold); font-weight:800; margin:0 0 6px; }
+    h1 { margin:0 0 14px; font-size:clamp(38px,7vw,58px); line-height:1.05; letter-spacing:-.035em; }
+    .intro { max-width:680px; color:var(--muted); font-size:18px; }
+    .contact { margin:32px 0 44px; padding:26px; border-radius:22px; background:linear-gradient(145deg,var(--maroon),#6f302a); color:white; }
+    .contact h2 { margin:0 0 5px; }
+    .contact p { margin:0 0 18px; color:#f5ddd8; }
+    .button { display:inline-block; padding:12px 18px; border-radius:999px; background:white; color:var(--maroon); text-decoration:none; font-weight:800; }
+    h2 { margin:0 0 18px; font-size:27px; }
+    details { margin:12px 0; border:1px solid var(--line); border-radius:18px; background:var(--card); overflow:hidden; }
+    summary { padding:19px 22px; cursor:pointer; font-weight:750; list-style:none; }
+    summary::-webkit-details-marker { display:none; }
+    summary::after { content:"+"; float:right; color:var(--maroon); font-size:20px; }
+    details[open] summary::after { content:"−"; }
+    details p { margin:0; padding:0 22px 20px; color:var(--muted); }
+    a { color:var(--maroon); text-underline-offset:3px; }
+    footer { padding:28px 0 50px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
+  </style>
+</head>
+<body>
+  <header><nav><a href="../">KoeNaWin</a><a class="policy" href="../privacy/">Privacy Policy</a></nav></header>
+  <main>
+    <p class="eyebrow">အကူအညီ · Help</p>
+    <h1>KoeNaWin Support</h1>
+    <p class="intro">We’re here to help with the KoeNaWin journey, daily counting, reminders, calendar sync, backups, and app settings.</p>
+
+    <div class="contact">
+      <h2>Contact support</h2>
+      <p>Describe what happened, your iPhone model, and your iOS version. Please do not include sensitive personal information.</p>
+      <a class="button" href="mailto:yekhaung@bazelinks.com?subject=KoeNaWin%20Support">Email yekhaung@bazelinks.com</a>
+    </div>
+
+    <section>
+      <h2>Frequently asked questions</h2>
+      <details><summary>ကိုးနဝင်း ခရီးစဉ်ကို ဘယ်လို စတင်ရမလဲ။</summary><p>On first launch, choose the Monday when you want to begin. Before that date, daily counting remains locked. On the chosen Monday, Day 1 becomes available automatically.</p></details>
+      <details><summary>အတိတ်က စတင်ရက်ကို ရွေးလို့ရပါသလား။</summary><p>ပြင်ဆင်ချက်စာမျက်နှာမှ အတိတ်က တနင်္လာနေ့ကို ရွေးနိုင်ပါသည်။ ထိုအခါ ယနေ့မတိုင်မီ ရက်များကို ပြီးမြောက်ပြီးအဖြစ် ဖြည့်ပေးပြီး ယနေ့ရေတွက်မှုကို ပုံမှန်ဆက်လုပ်နိုင်ပါသည်။</p></details>
+      <details><summary>နေ့စဉ်ရေတွက်မှုကို ဘယ်လို အသုံးပြုရမလဲ။</summary><p>Tap the large circular counting button. One round is complete after the configured bead target is reached. The required number of rounds varies by day, and the screen shows both the current round and completed rounds.</p></details>
+      <details><summary>တစ်ရက် ပျက်ကွက်သွားလျှင် ဘာဖြစ်မလဲ။</summary><p>If only yesterday was missed and you open the app within the available recovery window, the app can offer previous-day counting. Outside that window, the journey must be restarted.</p></details>
+      <details><summary>သတိပေးချက်များ မပေါ်လာပါက ဘာလုပ်ရမလဲ။</summary><p>Enable daily reminders in KoeNaWin Settings, then confirm notifications are allowed under iPhone Settings → Notifications → KoeNaWin. Focus modes may also silence notifications.</p></details>
+      <details><summary>Calendar sync ကို ဘယ်လို အသုံးပြုရမလဲ။</summary><p>Enable Calendar sync in app Settings, grant calendar permission, and select a calendar. KoeNaWin adds stage start dates, stage end dates, and vegetarian days only.</p></details>
+      <details><summary>ရေတွက်မှု progress ကို ဘယ်လို backup သိမ်းရမလဲ။</summary><p>Open app Settings and choose the Progress JSON export option. Save the file somewhere secure. Use the import option to restore a backup you previously exported.</p></details>
+      <details><summary>မိမိဒေတာကို ဘယ်လို ဖျက်ရမလဲ။</summary><p>Use “restart all stages” in app Settings to clear the journey, or delete KoeNaWin from the iPhone to remove its local app data. Calendar events already synced to your calendar may also be managed in the Calendar app.</p></details>
+    </section>
+  </main>
+  <footer>© 2026 Ye Khaung Bala · <a href="../privacy/">Privacy Policy</a></footer>
+</body>
+</html>
